@@ -90,7 +90,7 @@ export default function Home() {
                 The daily invoice received must always lie in the range. \
                 We'll generate a ZK proof locally in the browser, and \
                 only the proof will be sent to the blockchain so that no one \
-                watching the blockchain will know the two numbers."}
+                watching the blockchain will know the range of values."}
               </Text>
               <Space h={20} />
               <form onSubmit={handleGenerateProofSendTransaction}>
