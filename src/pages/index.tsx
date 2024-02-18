@@ -85,11 +85,9 @@ export default function Home() {
           <Grid align="center" justify="center" mih="80vh">
             <Grid.Col sm={8} md={6} lg={4}>
               <Text>
-                {"Input the range of amount values for medical invoices to be received daily. \ 
-                The two values are the lower and upper threshold values of invoices. \
-                The daily invoice received must always lie in the range. \
-                We'll generate a ZK proof locally in the browser, and \
-                only the proof will be sent to the blockchain so that no one \
+                {"Input the range of amount values for medical invoices to be \ 
+                received daily. We'll generate a ZK proof locally in the browser \
+                and only the proof will be sent to the blockchain so that no one \
                 watching the blockchain will know the range of values."}
               </Text>
               <Space h={20} />
