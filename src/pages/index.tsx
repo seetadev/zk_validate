@@ -118,7 +118,7 @@ export default function Home() {
           <Group w="96vw" h="10vh" position="center" align="center">
             <Link href="https://medium.com/@yujiangtham/writing-a-zero-knowledge-dapp-fd7f936e2d43">
               <Text>
-                Created using this tutorial!
+                References
               </Text>
             </Link>
           </Group>
