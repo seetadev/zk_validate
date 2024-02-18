@@ -78,15 +78,17 @@ export default function Home() {
         <Stack align="center" spacing={0}>
           <Group w="96vw" h="10vh" position="apart" align="center">
             <Title order={3}>
-              ZK Simple Multiplier
+              ZK Medical Invoice Verification (Daily)
             </Title>
             <ConnectWalletButton />
           </Group>
           <Grid align="center" justify="center" mih="80vh">
             <Grid.Col sm={8} md={6} lg={4}>
               <Text>
-                {"Input two numbers between 0 and 5, inclusive. The two numbers must \
-                not be equal. We'll generate a ZK proof locally in the browser, and \
+                {"Input the range of amount values for medical invoices to be received daily. \ 
+                The two values are the lower and upper threshold values of invoices. \
+                The daily invoice received must always lie in the range. \
+                We'll generate a ZK proof locally in the browser, and \
                 only the proof will be sent to the blockchain so that no one \
                 watching the blockchain will know the two numbers."}
               </Text>
