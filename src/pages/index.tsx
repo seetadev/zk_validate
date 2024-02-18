@@ -86,10 +86,10 @@ export default function Home() {
             <Grid.Col sm={8} md={6} lg={4}>
               <Text>
                 <Text>
-                {"Input two numbers between 0 and 5, inclusive. The two numbers must \
-                not be equal. We'll generate a ZK proof locally in the browser, and \
-                only the proof will be sent to the blockchain so that no one \
-                watching the blockchain will know the two numbers."}
+                {"Input the upper and lower threshold values of total medical invoices received in zk medical billing. The two values must \
+                represent the range of expected net value of medical invoices to be received daily. We'll generate a ZK proof \
+                locally in the browser and only only the proof will be sent to the blockchain so that no one \
+                watching the blockchain will know the range of values for medical invoices."}
               </Text>
               </Text>
               <Space h={20} />
